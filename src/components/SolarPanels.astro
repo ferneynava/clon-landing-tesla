@@ -1,0 +1,49 @@
+---
+import Section from "./Section.astro";
+
+---
+
+<Section title="Solar Panels for Your Home" subtitle="Lowest Cost Solar Panels in America" color="white">
+    <div slot="sectionfooter" class="flex gap-20 mx-auto text-white mb-5">
+        <div class="flex justify-center items-center flex-col">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-currency-dollar" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M16.7 8a3 3 0 0 0 -2.7 -2h-4a3 3 0 0 0 0 6h4a3 3 0 0 1 0 6h-4a3 3 0 0 1 -2.7 -2"></path>
+                <path d="M12 3v3m0 12v3"></path>
+             </svg>
+            <p class="text-[13px] font-medium">Guaranteed Lowest <br>Prince in America</p>
+        </div>
+        <div  class="flex justify-center items-center flex-col">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-solar-panel-2" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path d="M8 2a4 4 0 1 0 8 0"></path>
+                <path d="M4 3h1"></path>
+                <path d="M19 3h1"></path>
+                <path d="M12 9v1"></path>
+                <path d="M17.2 7.2l.707 .707"></path>
+                <path d="M6.8 7.2l-.7 .7"></path>
+                <path d="M4.28 21h15.44a1 1 0 0 0 .97 -1.243l-1.5 -6a1 1 0 0 0 -.97 -.757h-12.44a1 1 0 0 0 -.97 .757l-1.5 6a1 1 0 0 0 .97 1.243z"></path>
+                <path d="M4 17h16"></path>
+                <path d="M10 13l-1 8"></path>
+                <path d="M14 13l1 8"></path>
+             </svg>
+            <p class="text-[13px] font-medium">Integrated <br>Product Ecosystem</p>
+        </div>
+        <div>
+            <p class="text-[24px] font-medium">24/7</p>
+            <p class="text-[13px]">System Performance <br>Monitoring</p>
+        </div>
+    </div>
+    <div slot="footer" class="flex gap-x-6 mx-auto">
+        <a class="border-[3px] border-gray-600 bg-gray-600 text-sm rounded font-medium text-white px-12 py-2 
+        inline-block transition-colors hover:border-gray-500 hover:bg-gray-500" 
+        href="#">
+        Order Now
+        </a>
+        <a class="bg-white text-sm rounded font-medium px-12 py-2 transition-colors hover:bg-black hover:text-white inline-flex justify-center items-center text-black" 
+        href="#">
+        Demo Drive
+        </a>
+    </div>
+    <video slot="background" class="object-center object-cover h-full w-full" autoplay muted loop src="/public/solar-panels-hero-video-desktop.webm"></video>
+</Section>

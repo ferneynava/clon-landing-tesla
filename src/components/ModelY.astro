@@ -1,0 +1,33 @@
+---
+import Section from "./Section.astro";
+
+---
+
+<Section title="Model Y" subtitle="View Inventory" color="white" decoration="underline">
+    <div slot="sectionfooter" class="flex gap-20 mx-auto text-white mb-5">
+        <div>
+            <p class="text-[24px] font-medium">76cu ft</p>
+            <p class="text-[13px]">Cargo Space</p>
+        </div>
+        <div>
+            <p class="text-[24px] font-medium">330mi</p>
+            <p class="text-[13px]">Range (EPA est.)</p>
+        </div>
+        <div>
+            <p class="text-[24px] font-medium">$40,240</p>
+            <p class="text-[13px]">After Tax Credit</p>
+        </div>
+    </div>
+    <div slot="footer" class="flex gap-x-6 mx-auto">
+        <a class="border-[3px] border-gray-600 bg-gray-600 text-sm rounded font-medium text-white px-12 py-2 
+        inline-block transition-colors hover:border-gray-500 hover:bg-gray-500" 
+        href="#">
+        Order Now
+        </a>
+        <a class="bg-white text-sm rounded font-medium px-12 py-2 transition-colors hover:bg-black hover:text-white inline-flex justify-center items-center text-black" 
+        href="#">
+        Demo Drive
+        </a>
+    </div>
+    <img slot="background" src="/public/Model-Y-Main-Hero-Desktop-Global (1).avif" alt="Model Y" class="h-full w-full object-cover object-center">
+</Section>
