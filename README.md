@@ -17,7 +17,8 @@
   <h3 align="center">Clon Landing Tesla</h3>
 
   <p align="center">
-    Tesla page clone HTML, CSS, JavaScript, Astro y Tailwind
+    Tesla landing, technologies used: HTML, CSS, JavaScript, Astro and Tailwind. Electric Cars, Solar & Clean Energy
+    Page created for educational purposes 
     <br />
     <a href="https://github.com/ferneynava/clon-landing-tesla"><strong>Explore los documentos »</strong></a>
     <br />
