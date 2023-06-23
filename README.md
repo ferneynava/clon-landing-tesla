@@ -58,7 +58,7 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://649114f5b952096366052ed3--quiet-meerkat-5973d6.netlify.app/)
 
-Clon de la pagina de Tesla utilizando tecnologías como HTML, CSS, JavaScript, Astro y Tailwind. Esta es pagina creada para fines educativos y prácticos. 
+Clon de la pagina de Tesla utilizando tecnologías como HTML, CSS, JavaScript, Astro y Tailwind. Esta es una pagina creada para fines educativos y prácticos. 
 
 <p align="right">(<a href="#volver-arriba">volver arriba</a>)</p>
 
